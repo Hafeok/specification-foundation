@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use or build on this work, please cite it as below."
+title: "Specification Foundation"
+abstract: >-
+  The foundation of a specification language: what must be expressible for a
+  specification's completeness to be decidable. Projects from actor-indexed
+  determination; peer of Decision-Driven Design. Holds the construct list, the
+  resolution condition, the boundary declarations, and the conformance
+  criterion.
+type: software
+authors:
+  - given-names: "Emil"
+    family-names: "Okkels Klein"
+    orcid: "https://orcid.org/0009-0003-4458-5338"
+    affiliation: "Context&"
+repository-code: "https://github.com/Hafeok/specification-foundation"
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+keywords:
+  - specification
+  - actor-indexed determination
+  - decision-driven design
+  - completeness
+  - act vocabulary
+date-released: "2026-08-31"
+
+# Editorial role. The author above is the founding author and sole ratifying
+# editor. The editorial role is intended to transfer to a custodial body; the
+# authorship attribution is not affected by that transfer.
+#
+# Code in this repository is licensed separately under Apache-2.0. This file
+# governs citation of the canon only.
