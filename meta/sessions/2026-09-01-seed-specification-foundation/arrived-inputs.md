@@ -44,6 +44,43 @@ location. Placement is Gate 3's to propose and Gate 4's to execute.
 
 ---
 
+## Addendum, 2026-09-02 — item 8 arrived, by retrieval
+
+The row above stays as written; this addendum supersedes its state without rewriting it
+(CG-rule-02). Ownership of the supply was corrected at session close: the branch was in a
+repository this session can reach, and retrieval was ruled the session's act.
+
+**Source:** `Hafeok/product-cli`, branch `claude/closure-falsifier-prereg-w1mm7d`, head
+`a1232bf2b60107136115cdc620a2f3df19f2875d`
+("meta/sessions: correct the prompt line count by appending, not by rewriting"), one commit
+above the inauguration `1679a93aac5556b083f6d7fbb03a017a1347ab39`, based on `main` at
+`d0f429741fd06e6d09d25937efcb61f440b94472`. The branch's session record is
+`meta/sessions/2026-08-28-closure-falsifier-prereg/`, three files.
+
+| File on the branch | sha256 | Disposition |
+|---|---|---|
+| `bootstrap.md` — the arrival record | `662c7eb3778917dd2870873b1cbdda519ed507250f32ef0a5747c0907519e204` | filed verbatim at `inputs/closure-falsifier-prereg-w1mm7d/bootstrap.md` |
+| `prereg-closure-falsifier.md` | `145ed0a2204d1a698cb0d4d6ff2b33ba431d20a152d52b86cc91986df3fd632b` | **byte-identical to arrived input 6** — not duplicated; the anchor Emil named, now verified at source |
+| `prompt.md` | `4b5296634f648957b56563922d37b5103610795a8c17797e4b0e884ac40a3be0` | **byte-identical to the bundle's `falsifier/session-closure-falsifier-prereg.md`** — not duplicated; a second anchor nobody promised |
+
+**What the branch holds, and what it does not.** The branch's two session commits are the
+inauguration and one appended correction. The arrival record (`bootstrap.md`) carries the
+identity check of both inputs, an appended line-count correction, and a recorded arrival gap: on
+2026-08-28 that session searched `product-cli`, `decision-driven-design` at `main`, and
+`ai-development-foundations` for the specification language foundation and did not find it — a
+third, unlooked-for corroboration of the foundation's ruled provenance (first filed in this
+seed's bundle). **The Gate 0 report itself — the restatement, the defect list D1–D15, the SPETLR
+confirmation — was never a repository object**: that session's Gate 0 instructed "produce,
+without writing anything to the repository", and no commit on the branch contains it. It is not
+reconstructed here. Its content survives only refracted through the never-issued draft
+(`rulings-gate0-closure-falsifier.md`), which responds to it finding by finding.
+
+Cross-check score after retrieval: **two of the five unanchored inputs now verify at an
+independent source** (the pre-registration; and the falsifier session prompt, which was never
+counted among the five), and the foundation's permanent provenance fact gains corroborating
+negative evidence. The foundation, the supersession record, the resolution condition and the
+boundary declarations remain bundle-only, as ruled permanent.
+
 ## Verification against independent copies
 
 Three of the delivered files have copies filed at `Hafeok/canon-governance`
