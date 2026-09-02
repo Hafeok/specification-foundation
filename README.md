@@ -90,13 +90,19 @@ What is stated here is only what is local to this repository:
 - **The term registry** is at `terms/registry.md` and is the repository's vocabulary of record for
   its own structural terms.
 
-## Validators *(commitment — not built, as at 2026-09-01)*
+## Validators
 
-Two validators, adapted from `decision-driven-design`, are Gate 2 of the seeding session and do
-not exist yet: an ordering validator governing the **projection** relation only, and a claim
-validator for `SF-` records. When they exist, a green run will mean **well formed, not correct**:
-every reference can resolve and every determination be wrong. Nothing that validates here will
-ever measure the conformance relation, by design.
+Three validators live in `scripts/` and run in CI on every push, each failing the build on
+violation: a claim validator for `SF-` records (falsifier presence at every live status among
+its checks), an ordering validator governing the **projection** relation only — it refuses to
+evaluate any other relation, and is never pointed at conformance, which has no validator by
+recorded design — and a governance-pin check asserting the citation above matches the value
+recorded in `meta/canon-governance-ref.yaml` (`CG-R-10`), so neither can advance silently alone.
+
+**A green run means well formed, not correct**: every reference can resolve and every
+determination be wrong. These validators issue verdicts where `canon-governance`'s instrument
+measures; both are right, the distinction is ruled (`CG-R-13`), and it is recorded in
+`scripts/README.md`.
 
 ---
 

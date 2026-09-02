@@ -1,0 +1,27 @@
+# CI: the three validators, each failing the build on violation.
+#
+# A green run means WELL FORMED, NOT CORRECT: every reference can resolve and
+# every determination be wrong. See the README's validator section.
+#
+# The ordering validator governs the projection relation only and refuses any
+# other (E14). It is never pointed at the conformance relation, which has no
+# validator by recorded design.
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PyYAML
+        run: python3 -m pip install pyyaml
+      - name: Claims are well formed (SF- space; falsifier presence at every live status)
+        run: python3 scripts/validate-claims.py canon/claims/
+      - name: Canon ordering and upstream pins (projection only)
+        run: python3 scripts/validate-core-order.py canon
+      - name: Governance pin matches the recorded ref (CG-R-10)
+        run: python3 scripts/validate-governance-pin.py

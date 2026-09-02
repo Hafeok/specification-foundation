@@ -1,0 +1,17 @@
+format: governance-ref/v1
+# The canon-governance ref this repository's citations record: what was read
+# and complied with, not what is current. Per CG-R-10 this value advances only
+# by a deliberate act that states what changed between the refs; going stale is
+# its correct behaviour. scripts/validate-governance-pin.py asserts the README
+# cites exactly this value, so the README pin and this record move together or
+# CI fails.
+repo: Hafeok/canon-governance
+# Quote the ref if it is ever all digits — YAML would otherwise parse it as an
+# integer and the check would reject it with a misleading message (found in the
+# Gate 2 demonstration runs, recorded in the proposal).
+ref: ad6d1b0b861306561364cc8d3a3e554cfb92d90c
+read: 2026-09-01
+read_by: 2026-09-01-seed-specification-foundation
+# Legitimate additional canon-governance hashes cited in the README, if any
+# ever are. Adding one here is a deliberate, reviewable act.
+also_cited: []
