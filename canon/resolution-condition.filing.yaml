@@ -1,0 +1,20 @@
+format: filing/v1
+artefact: resolution-condition.md
+filed: 2026-09-01
+filed_by: 2026-09-01-seed-specification-foundation
+arrived_as: meta/sessions/2026-09-01-seed-specification-foundation/inputs/resolution-condition.md
+sha256: 802fc286cfcbb308b178066386bc1da6bceb4d006d33dbdc62fb2b40264b0055
+state: arrived — byte-identical to the seed bundle's copy
+provenance: |
+  No independent anchor outside the seed bundle exists (Gate 0, weakest point); the hash above is
+  the record against which any future cross-check runs.
+status: "[PROPOSED] by the artefact's own header; depends on supersession S-2, itself unratified"
+awaits_falsifier: |
+  its own falsifier, requiring two conforming specifications and a boundary between them —
+  deferred per R-1, with the composition check the candidate needs committed at R-4 and not
+  built.
+converts: |
+  to numbered claim records under canon/claims/ when the falsifier it awaits lands
+  (CG-R-14, dated 2026-09-01).
+related:
+  - canon/boundary-declarations.md   # the declarations make this condition sound; adjacent by design

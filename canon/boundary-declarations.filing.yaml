@@ -1,0 +1,20 @@
+format: filing/v1
+artefact: boundary-declarations.md
+filed: 2026-09-01
+filed_by: 2026-09-01-seed-specification-foundation
+arrived_as: meta/sessions/2026-09-01-seed-specification-foundation/inputs/boundary-declarations.md
+sha256: 0690cb5577d24e7b27077141c06f4572451797de406c41bfb8d6cdf05fcb131e
+state: arrived — byte-identical to the seed bundle's copy
+provenance: |
+  No independent anchor outside the seed bundle exists (Gate 0, weakest point); the hash above is
+  the record against which any future cross-check runs.
+status: "[PROPOSED] by the artefact's own header; depends on supersession S-2, itself unratified"
+awaits_falsifier: |
+  the candidate its own Dependencies section states — a specification passing the resolution
+  condition with declared boundaries shows fewer escaped decisions at the seams it declares than
+  one without. Untested, and a different claim from the one the current pre-registration tests.
+converts: |
+  to numbered claim records under canon/claims/ when the falsifier it awaits lands
+  (CG-R-14, dated 2026-09-01).
+related:
+  - canon/resolution-condition.md   # this artefact makes that condition sound; adjacent by design

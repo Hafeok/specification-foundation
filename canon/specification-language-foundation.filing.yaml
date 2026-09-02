@@ -1,0 +1,25 @@
+format: filing/v1
+artefact: specification-language-foundation.md
+filed: 2026-09-01
+filed_by: 2026-09-01-seed-specification-foundation
+arrived_as: meta/sessions/2026-09-01-seed-specification-foundation/inputs/specification-language-foundation.md
+sha256: 3d9a52546fc35b05fffb2b0de2a97faa656b813e61c3c893ab2a093571219510
+state: |
+  original — pre-supersession. S-1 and S-2 are recorded in
+  evidence/supersession-foundation-construct-list.md and are deliberately NOT resolved into this
+  text: the falsifier's category list derives from the construct list and the derivation needs
+  both states. Read this file together with that record, never alone.
+provenance: |
+  Permanent fact, ruled at Gate 0: authored in conversation; the seed bundle is its first filing;
+  no independent anchor exists or ever will. "Presents as original, not verified" is the
+  strongest provenance statement available for this artefact.
+status: "[PROPOSED] by the artefact's own header; filing does not promote"
+awaits_falsifier: |
+  the closure claim's own falsifier (this artefact's §5, open item 1). The current
+  pre-registration tests the mechanism claim instead, per R-1, and nothing may present its
+  result as this artefact's test.
+converts: |
+  to numbered claim records under canon/claims/ when the falsifier it awaits lands
+  (CG-R-14, dated 2026-09-01).
+related:
+  - evidence/supersession-foundation-construct-list.md   # the two supersessions against this text

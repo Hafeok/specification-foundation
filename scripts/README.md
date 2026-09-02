@@ -40,6 +40,18 @@ question.
 
 ## The relation guard's coverage limit — recorded, not fixed (`CG-R-15`)
 
+## Committed, not built: the sidecar check lands with the first conversion (`CG-R-16`)
+
+**Dated commitment, 2026-09-01, against a named trigger.** The `filing/v1` sidecars under
+`canon/` and `evidence/` carry the CG-R-14 conversion commitments, and no validator reads them.
+Ruled at `CG-R-16` that the check **lands in the same change as the first artefact converting to
+a numbered claim** — not before: a presence-only check passes a drifted sidecar as readily as an
+accurate one, a green light over an unread file. The first conversion gives the check something
+that could fail — that the committed conversion actually happened, at the committed target.
+Until that trigger, the commitments are prose, stated as such.
+
+## The relation guard's coverage limit — recorded, not fixed (`CG-R-15`)
+
 `validate-core-order.py` refuses to evaluate any relation other than `projects-from` (E14),
 because every check in its pin machinery encodes that upstream cannot legitimately be diverged
 from — true of projection, false of conformance. **E14 guards the one door that exists today.**

@@ -1,0 +1,16 @@
+format: filing/v1
+artefact: supersession-foundation-construct-list.md
+filed: 2026-09-01
+filed_by: 2026-09-01-seed-specification-foundation
+arrived_as: meta/sessions/2026-09-01-seed-specification-foundation/inputs/supersession-foundation-construct-list.md
+sha256: 0c2c17cce8e9abe01b7a1dbc27a5e8148ce0bb31cfcacc9436e01a215940b700
+state: arrived — byte-identical to the seed bundle's copy
+provenance: |
+  No independent anchor outside the seed bundle exists (Gate 0, weakest point); the hash above is
+  the record against which any future cross-check runs.
+status: |
+  "[PROPOSED] by the artefact's own header. Evidential, per CG-R-11: provenance about canon,
+  load-bearing for the falsifier's category-list derivation — which is why it files here and not
+  under canon/. It awaits no falsifier and converts to nothing."
+related:
+  - canon/specification-language-foundation.md   # the original state this record supersedes against
