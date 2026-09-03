@@ -1,0 +1,16 @@
+Gate 4 (Part B) validator runs, 2026-09-03, after filing evidence/falsifier/.
+
+$ python3 scripts/validate-claims.py canon/claims/
+valid: 0 claims, ids unique, format rules satisfied
+exit=0
+
+$ python3 scripts/validate-core-order.py canon
+  upstream  no canon/graph/upstream.yaml — nothing pinned yet (0 pins)
+
+upstream-only mode (0 numbered canon docs): 0 errors, 0 warnings
+canon: OK — every pin resolves at the pinned ref; no drift
+exit=0
+
+$ python3 scripts/validate-governance-pin.py
+governance pin: OK — README cites Hafeok/canon-governance@ad6d1b0b861306561364cc8d3a3e554cfb92d90c; 1 hash(es) in README, all accounted for
+exit=0

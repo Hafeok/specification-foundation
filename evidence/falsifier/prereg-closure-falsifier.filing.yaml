@@ -1,0 +1,20 @@
+format: filing/v1
+artefact: prereg-closure-falsifier.md
+filed: 2026-09-03
+filed_by: 2026-09-01-seed-specification-foundation
+arrived_as: meta/sessions/2026-09-01-seed-specification-foundation/inputs/prereg-closure-falsifier.md
+sha256: 145ed0a2204d1a698cb0d4d6ff2b33ba431d20a152d52b86cc91986df3fd632b
+state: |
+  unamended — the correct state, not merely the faithful one (Gate 0 ruling on I-1/I-2). The
+  amendment directions in the adjacent draft were never ratified, and R-1 has since redirected
+  the claim they assumed. The §5 human-control mandate stands as arrived.
+provenance: |
+  Verified at an independent source: byte-identical to
+  meta/sessions/2026-08-28-closure-falsifier-prereg/prereg-closure-falsifier.md at
+  Hafeok/product-cli, branch claude/closure-falsifier-prereg-w1mm7d, commit
+  a1232bf2b60107136115cdc620a2f3df19f2875d — the same hash that branch's own arrival record
+  states.
+status: "[PROPOSED] by the artefact's own header; evidence, per R-1: tests the mechanism claim, never presentable as a test of the resolution condition"
+related:
+  - evidence/falsifier/rulings-gate0-closure-falsifier.md
+  - evidence/falsifier/closure-falsifier-session-arrival-record.md

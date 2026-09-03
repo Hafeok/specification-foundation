@@ -1,0 +1,20 @@
+format: filing/v1
+artefact: rulings-gate0-closure-falsifier.md
+filed: 2026-09-03
+filed_by: 2026-09-01-seed-specification-foundation
+arrived_as: meta/sessions/2026-09-01-seed-specification-foundation/inputs/rulings-gate0-closure-falsifier.md
+sha256: 1b568178938463754f5d6de292316c86be6596d5ef8cc83b7436ab6fd1323004
+state: |
+  [DRAFT], never issued (Gate 0 ruling on I-3 — the seed prompt's "rulings" label was the
+  principal's recorded error). Presented for issue; no ratification followed; not to be treated
+  as issued and not to be ratified as it stands. Reconsidered when the falsifier work restarts.
+provenance: |
+  No independent anchor outside the seed bundle exists; the hash above is the record against
+  which any future cross-check runs.
+status: |
+  Responds, finding by finding, to a Gate 0 report that was never a repository object (see the
+  arrival record beside it, and carried item CI-1). It is a response to that report, not a
+  summary of it.
+related:
+  - evidence/falsifier/prereg-closure-falsifier.md
+  - evidence/falsifier/closure-falsifier-session-arrival-record.md

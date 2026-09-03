@@ -1,0 +1,25 @@
+format: filing/v1
+artefact: closure-falsifier-session-arrival-record.md
+filed: 2026-09-03
+filed_by: 2026-09-01-seed-specification-foundation
+arrived_as: meta/sessions/2026-09-01-seed-specification-foundation/inputs/closure-falsifier-prereg-w1mm7d/bootstrap.md
+sha256: 662c7eb3778917dd2870873b1cbdda519ed507250f32ef0a5747c0907519e204
+original_identity: |
+  meta/sessions/2026-08-28-closure-falsifier-prereg/bootstrap.md at Hafeok/product-cli, branch
+  claude/closure-falsifier-prereg-w1mm7d, commit a1232bf2b60107136115cdc620a2f3df19f2875d.
+  Renamed at filing — content byte-identical; a file named bootstrap.md loose in this directory
+  would read as this repository's own apparatus. Precedent: the seed's CITATION.cff.arrived.
+state: arrived — retrieved 2026-09-02 after the close correction reassigned the supply to the session
+provenance: |
+  This IS the independent anchor: it records the identity hashes of the pre-registration
+  (145ed0a2…) and the falsifier session prompt (4b529663…), both matching the seed bundle's
+  copies byte-for-byte, and a search of three repositories on 2026-08-28 that did not find the
+  specification language foundation — corroborating negative evidence for the foundation's ruled
+  provenance fact. It does not make that fact verifiable; it makes the claim of unavailability
+  checkable, which is a different and useful thing.
+status: |
+  Evidence. The Gate 0 report this session went on to produce was, per its own instruction,
+  never written to the repository and exists nowhere retrievable (carried item CI-1).
+related:
+  - evidence/falsifier/prereg-closure-falsifier.md
+  - evidence/falsifier/rulings-gate0-closure-falsifier.md
