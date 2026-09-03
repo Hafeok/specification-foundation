@@ -64,3 +64,9 @@ Appended, not rewritten (`CG-rule-02`).
 | File | sha256 | Lines | Status |
 |---|---|---|---|
 | `inputs/rulings-cg-r-20-28.md` | `dfd5b58f8bc6091b5aebfd9aba42ca2bd33278e8d238c85a6bbc13be818900fc` | 105 | **rulings, issued** — `CG-R-20` … `CG-R-28`, by Emil, ratifying Gate 0. Filed byte-identical; quoted with consequences in `rulings-gate0.md`. Not yet rows in the `canon-governance` register, by the issuer's own statement |
+
+## Addendum, 2026-09-03 — the Gate 1 rulings arrived
+
+| File | sha256 | Lines | Status |
+|---|---|---|---|
+| `inputs/rulings-cg-r-29-34.md` | `d86e1294b6c99f277e5fb4c12fab1dded722c48e91d11efc7c2076005a197d5c` | 74 | **rulings, issued** — `CG-R-29` … `CG-R-34`, by Emil, ratifying Gate 1 as provisional. Filed byte-identical; quoted with consequences in `rulings-gate1.md`. Not yet register rows |
