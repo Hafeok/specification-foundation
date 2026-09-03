@@ -54,3 +54,13 @@ yet created, and nothing in `specification-foundation` or `canon-governance` car
 files. The hashes are on the record so that a later cross-check — when the binding is filed at
 its home, or when the pre-registration is committed for execution — can establish what this
 session cannot: that these are the states the executing session works from.
+
+---
+
+## Addendum, 2026-09-03 — the Gate 0 rulings arrived
+
+Appended, not rewritten (`CG-rule-02`).
+
+| File | sha256 | Lines | Status |
+|---|---|---|---|
+| `inputs/rulings-cg-r-20-28.md` | `dfd5b58f8bc6091b5aebfd9aba42ca2bd33278e8d238c85a6bbc13be818900fc` | 105 | **rulings, issued** — `CG-R-20` … `CG-R-28`, by Emil, ratifying Gate 0. Filed byte-identical; quoted with consequences in `rulings-gate0.md`. Not yet rows in the `canon-governance` register, by the issuer's own statement |
