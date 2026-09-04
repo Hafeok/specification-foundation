@@ -70,3 +70,9 @@ Appended, not rewritten (`CG-rule-02`).
 | File | sha256 | Lines | Status |
 |---|---|---|---|
 | `inputs/rulings-cg-r-29-34.md` | `d86e1294b6c99f277e5fb4c12fab1dded722c48e91d11efc7c2076005a197d5c` | 74 | **rulings, issued** — `CG-R-29` … `CG-R-34`, by Emil, ratifying Gate 1 as provisional. Filed byte-identical; quoted with consequences in `rulings-gate1.md`. Not yet register rows |
+
+## Addendum, 2026-09-04 — the Gate 2 rulings arrived
+
+| File | sha256 | Lines | Status |
+|---|---|---|---|
+| `inputs/rulings-cg-r-35-38.md` | `d6b8f4e1aa1b8cbaab210da9db173a22099eddc94df7e67033654c5ed7168b4f` | 64 | **rulings, issued** — `CG-R-35` … `CG-R-38`, by Emil, 2026-09-03, holding Gate 2 pending blind re-derivation. Filed byte-identical; quoted with consequences in `rulings-gate2.md`. Not yet register rows |
