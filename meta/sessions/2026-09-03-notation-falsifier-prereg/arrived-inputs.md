@@ -82,3 +82,9 @@ Appended, not rewritten (`CG-rule-02`).
 | File | sha256 | Lines | Status |
 |---|---|---|---|
 | `inputs/rulings-cg-r-39-40.md` | `e85c32509831353a9d06e10956c414c1b957bc59abca497dda408a1b08ddfa0d` | 47 | **rulings, issued** — `CG-R-39`, `CG-R-40`, by Emil, 2026-09-03, accepting the bundle and the reconciliation rule. Filed byte-identical; quoted with consequences in `rulings-rederivation.md`. Not yet register rows |
+
+## Addendum, 2026-09-04 — the scrub task arrived
+
+| File | sha256 | Lines | Status |
+|---|---|---|---|
+| `inputs/task-scrub-and-package-bundle.md` | `7784cadc977f0c61fe98fcb9b4df56aded5f7ad2cfbd62a1810b28a2fc526b98` | 83 | **task**, issued by Emil — a bounded task inside the `CG-R-35` hold; recorded in `task-scrub-bundle.md` before the first act |
