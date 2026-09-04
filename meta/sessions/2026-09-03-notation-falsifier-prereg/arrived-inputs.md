@@ -76,3 +76,9 @@ Appended, not rewritten (`CG-rule-02`).
 | File | sha256 | Lines | Status |
 |---|---|---|---|
 | `inputs/rulings-cg-r-35-38.md` | `d6b8f4e1aa1b8cbaab210da9db173a22099eddc94df7e67033654c5ed7168b4f` | 64 | **rulings, issued** — `CG-R-35` … `CG-R-38`, by Emil, 2026-09-03, holding Gate 2 pending blind re-derivation. Filed byte-identical; quoted with consequences in `rulings-gate2.md`. Not yet register rows |
+
+## Addendum, 2026-09-04 — rulings on the re-derivation bundle arrived
+
+| File | sha256 | Lines | Status |
+|---|---|---|---|
+| `inputs/rulings-cg-r-39-40.md` | `e85c32509831353a9d06e10956c414c1b957bc59abca497dda408a1b08ddfa0d` | 47 | **rulings, issued** — `CG-R-39`, `CG-R-40`, by Emil, 2026-09-03, accepting the bundle and the reconciliation rule. Filed byte-identical; quoted with consequences in `rulings-rederivation.md`. Not yet register rows |

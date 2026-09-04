@@ -55,3 +55,33 @@ per `CG-R-35`'s reading that a small overlap is a finding about the grid.
 Reconciliation → ratification of the reconciled list → closure of the determination set
 against it (`CG-R-21`, `CG-R-29`) → ratification of the closure → Gate 3. The closure preview in
 `gate2-proposal.md` §6 is redone against the reconciled list, not carried forward.
+
+---
+
+## Note appended 2026-09-04 — §4's offered threshold refused; provenance grade substituted (`CG-R-40`)
+
+§4 above offered a two-thirds threshold for ruling. **Refused**: an arbitrary ceiling of the
+kind already refused for the boundary ratio, and the aggregate is the wrong place to look. §4
+stays as written; this note governs.
+
+**Per row.** A proposed-only row is retained only if defended on the grid alone. §3 already
+forbids citing the determination set, the Gate 1 act, or the closure preview in the defence;
+the consequence is now explicit: a row defensible only by pointing at the set is set-fitted and
+struck, and **one such row is a finding regardless of overlap**.
+
+**In aggregate.** The overlap sets the list's provenance grade, recorded on the reconciled list
+and carried into every citation of the result:
+
+| Grade | Condition |
+|---|---|
+| **derived** | every retained row is defended on the grid alone |
+| **authored** | some retained rows survive on author judgement the grid does not reach |
+
+An authored list is usable and weakly warranted; the frame is then an artefact of this
+author's reading of the act type, not of a reproducible method, and downstream reuse of the
+method inherits that. The reconciliation states the grade and, for an authored grade, names
+every row that carries it.
+
+**Revision trigger.** Not a percentage. If a derived grade is unachievable — the grid cannot
+defend rows the author believes belong — the grid underdetermines the list, and that is
+reported as a finding about the method before any list is ratified.
