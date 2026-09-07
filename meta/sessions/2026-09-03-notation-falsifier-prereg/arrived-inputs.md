@@ -95,3 +95,9 @@ Appended, not rewritten (`CG-rule-02`).
 |---|---|---|---|
 | `inputs/rulings-cg-r-41-44.md` | `00402d71bf94218e1e74fbf7b0d87f95c90e203db00d1f631ab89f75c6de84a5` | 61 | **rulings, issued** — `CG-R-41` … `CG-R-44`, by Emil, 2026-09-03, ratifying the leak audit. Quoted with consequences in `rulings-gateA.md`. Not yet register rows |
 | `inputs/invocation-category-derivation.md` | `424e53963e2fce9eb55e7b6b5858a3d3480ef3ae34f53b48c8fbdf1084af977d` | 35 | the receiving session's invocation, Emil's; filed into the bundle byte-identical as `INVOCATION.md` per `CG-R-44`, unscrubbed |
+
+## Addendum, 2026-09-07 — Gate B rulings arrived
+
+| File | sha256 | Lines | Status |
+|---|---|---|---|
+| `inputs/rulings-cg-r-45-47.md` | `75f24bc235a799c6a5bedd932bd79503403b33c55078ff6147645b852dd0fa43` | 47 | **rulings, issued** — `CG-R-45` … `CG-R-47`, by Emil, 2026-09-03, ratifying Gate B. Quoted with consequences in `rulings-gateB.md`. Not yet register rows |

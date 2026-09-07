@@ -85,3 +85,22 @@ every row that carries it.
 **Revision trigger.** Not a percentage. If a derived grade is unachievable — the grid cannot
 defend rows the author believes belong — the grid underdetermines the list, and that is
 reported as a finding about the method before any list is ratified.
+
+---
+
+## Note appended 2026-09-07 — the aggregated independence limit (`CG-R-47`)
+
+Three residuals on the re-derivation's independence were filed separately as they arose:
+`CG-R-39` (the brief is this session's phrasing of a grid that is itself under test), `CG-R-43`
+(the receiving session can infer that a falsification programme exists and that a
+pre-registration tests a closure claim), and the scrub record's weakest point (the care in the
+brief's prohibitions discloses that its output matters to something). **Ruled: they are read as
+one limit, not three.** Aggregated they describe a single channel — *the receiving session can
+tell it is doing careful work for a programme that will scrutinise the result, without knowing
+what the scrutiny is.*
+
+**How the reconciliation uses it.** One input to the provenance grade under `CG-R-40`, weighed
+once. It does not by itself make the list *authored*; it bounds how much a *derived* grade can
+claim, and the grade statement names it. What keeps it tolerable is recorded with it: the audit
+found no frame vocabulary in the bundle, so the inference reaches *this matters* and stops
+short of *this is a denominator*.
