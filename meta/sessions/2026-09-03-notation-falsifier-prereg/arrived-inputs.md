@@ -88,3 +88,10 @@ Appended, not rewritten (`CG-rule-02`).
 | File | sha256 | Lines | Status |
 |---|---|---|---|
 | `inputs/task-scrub-and-package-bundle.md` | `7784cadc977f0c61fe98fcb9b4df56aded5f7ad2cfbd62a1810b28a2fc526b98` | 83 | **task**, issued by Emil — a bounded task inside the `CG-R-35` hold; recorded in `task-scrub-bundle.md` before the first act |
+
+## Addendum, 2026-09-07 — Gate A rulings and the receiving session's invocation arrived
+
+| File | sha256 | Lines | Status |
+|---|---|---|---|
+| `inputs/rulings-cg-r-41-44.md` | `00402d71bf94218e1e74fbf7b0d87f95c90e203db00d1f631ab89f75c6de84a5` | 61 | **rulings, issued** — `CG-R-41` … `CG-R-44`, by Emil, 2026-09-03, ratifying the leak audit. Quoted with consequences in `rulings-gateA.md`. Not yet register rows |
+| `inputs/invocation-category-derivation.md` | `424e53963e2fce9eb55e7b6b5858a3d3480ef3ae34f53b48c8fbdf1084af977d` | 35 | the receiving session's invocation, Emil's; filed into the bundle byte-identical as `INVOCATION.md` per `CG-R-44`, unscrubbed |
