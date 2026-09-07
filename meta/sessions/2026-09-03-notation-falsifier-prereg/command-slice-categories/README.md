@@ -1,14 +1,11 @@
-# Blind re-derivation brief — consequential-property categories for a command slice
+# Brief — consequential-property categories for a command slice
 
-**Read this file first. It is the whole of your instruction set.** You are performing the
-re-derivation ruled at `CG-R-35`. You derive a category list by a stated method and stop. You
-are not told, and must not try to learn, what any other session derived, what act instance is
-under test, or what determinations it carries. If anything you are given or find seems to tell
-you, stop and report it rather than reading on.
+**Read this file first. It is your instruction set; where the invocation and this brief
+differ, this brief wins.** You are producing a category list by a stated method and stopping.
+Work from this bundle only; it is complete. If anything you are given or find goes beyond it,
+stop and report it rather than reading on.
 
-**You propose; Emil ratifies. Produce one file and stop.** Commit identity, if you commit at
-all, is `Claude <noreply@anthropic.com>`. If this bundle is all you were given, work from it
-alone; if you have repository access, use nothing outside this directory.
+**You propose; the principal who issued this brief ratifies. Produce one file and stop.**
 
 ---
 
@@ -18,7 +15,7 @@ Produce the list of **consequential-property categories** for one act type: a **
 in the domain-state-change binding, in the software projection, at act scale. The list is drawn
 for the act type — any command slice, in any domain — never for an instance.
 
-Your output is a single markdown file, `rederived-category-list.md`, containing:
+Your output is a single markdown file, `category-list.md`, containing:
 
 1. the list, in the form fixed at §5;
 2. a **rejection register** — every candidate the method produced that you did not admit, with
@@ -27,8 +24,7 @@ Your output is a single markdown file, `rederived-category-list.md`, containing:
    invented at the point of invention;
 4. the weakest point of your list, named.
 
-Nothing else. No experiment design, no measure, no discussion of what the list is for beyond
-what §2 says.
+Nothing else. No discussion of what the list is for beyond what §2 says.
 
 ## 2. What a category is
 
@@ -45,7 +41,8 @@ name) and the fact vocabulary (the types of things acts read and write). Slice t
 *command*, *read-model*, *automation* and *translation*. Position is relative to the act: each
 slice declares which facts it reads and which it writes. The determination layer adds, at each
 slice's address, determinations — extent, allocation, acceptance with coverage, boundary
-declarations, provenance — whose record shape is `determination.schema.json`, enclosed.
+declarations, provenance — recorded in a typed record whose field vocabulary is listed at
+§4.3.
 
 A **command slice** receives a command from a caller, reads the facts the event model declares
 it reads, decides, writes the facts the model declares it writes, and reports an outcome to the
@@ -76,8 +73,8 @@ ground is obtained), *decide*, *write* (the verdict is produced), *report* (the 
 the outcome). A sixth row, *act as a whole*, holds cross-cutting points.
 
 **Axis B — the foundation's constructs, in both states.** The foundation is enclosed in its
-**original** state (`foundation.md`) together with the **supersession record** that retired
-two of its positions (`supersession-foundation-construct-list.md`). Use both: where the
+**original** state (`foundation.md`) together with an **extract of the supersession record**
+that retired two of its positions (`supersession-extract.md`). Use both: where the
 original names a construct the supersession replaced, the cell is the same and the name
 differs, and you say which state you used.
 
@@ -95,15 +92,14 @@ differs, and you say which state you used.
 A category is the intersection of a stage and a construct at which all four conditions hold.
 Work the grid cell by cell; a cell may yield nothing, one category, or several.
 
-**The schema is consulted as enforcement only.** Where it requires a field, that marks a
-decision point the binding's authors judged consequential — corroboration for a category, never
-its source. Do not derive categories from schema fields.
+**The record vocabulary is not a source.** §4.3 lists the binding's record fields so that names
+avoid them. Do not derive categories from record fields.
 
 ### 4.3 Rules on the rows
 
 - **One question per category.** Each row is one question with one recognisable answer form.
-  A category may be a *kind* of decision point that an instance exhibits more than once; that
-  is acceptable and is handled after your work, not by you.
+  A category may be a *kind* of decision point that a given act exhibits more than once; that
+  is acceptable — do not split a kind into instances.
 - **Names in plain words, avoiding the schema's vocabulary.** No category name may be a schema
   key or enum value: *address, act_type, act_instance, scale, statement, extent, axes, state,
   region, reason, allocation, class, settled_by, acceptance, predicate, closure, kind,
@@ -131,11 +127,10 @@ condition failed, why. Then invented categories, if any. Then the weakest point.
 
 ## 6. What you must not do
 
-- Do not look for, ask about, or reason from any act instance, event model, example
-  determination, or other session's list. The enclosed schema's one example name is not an
-  instance under test and tells you nothing.
-- Do not read anything outside this directory. The bundle is complete.
-- Do not design the experiment, the measure, thresholds, or a rubric.
+- Do not reason from any particular act, event model or example determination; the list is
+  for the act type.
+- Do not read anything outside this bundle. It is complete.
+- Do not produce anything beyond §1's four items.
 - Do not tune the list to be long, short, or to any expectation. The number of rows is an
   outcome of the method.
 
@@ -145,8 +140,8 @@ condition failed, why. Then invented categories, if any. Then the weakest point.
 |---|---|
 | `README.md` | this brief |
 | `foundation.md` | the foundation, original state |
-| `supersession-foundation-construct-list.md` | S-1 and S-2, the superseding state |
+| `supersession-extract.md` | S-1 and S-2, the superseding state — an extract of the supersession record's construct content, with its provenance line |
 | `resolution-condition.md` | C-1, C-2, C-3 |
 | `boundary-declarations.md` | B-1, B-2 |
-| `determination.schema.json` | the binding's record shape, for §4.2's corroboration and §4.3's naming rule |
+| `INVOCATION.md` | the invocation you were given, filed beside this brief so the two can be checked against each other |
 | `MANIFEST.md` | sha256 of every file above — check them before starting |

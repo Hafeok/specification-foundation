@@ -1,10 +1,10 @@
-# [PROPOSED] Supersession record: foundation construct list
+# Supersession record — extract
 
-**Status:** `[PROPOSED]`. Two supersessions against `specification-language-foundation.md`. Neither is ratified. Both arose in session; neither has a falsifier attached.
-
-**Purpose.** The construct list is the derivation source for the falsifier's category list. Any session deriving from it must see both the superseded and the superseding state, or it will derive from a stale list without knowing it has. This record exists so that resolving the changes into the text does not destroy what the derivation needs.
-
-**Rule applied.** Supersession never rewrites. The original statements below are retained verbatim in substance and marked retired, not deleted.
+**Extract, not the whole document.** Source: `supersession-foundation-construct-list.md`, sha256
+`0c2c17cce8e9abe01b7a1dbc27a5e8148ce0bb31cfcacc9436e01a215940b700`, 75 lines. Extracted: §S-1 lines 11–33 and §S-2 lines 38–70 — each supersession's retired
+position, superseding position, basis and consequence, verbatim. Not extracted: the document's
+header and status lines (1–9), the two *Open* subsections (34–37, 71–75), and the horizontal rules
+between sections. Every extracted line is byte-identical to the source.
 
 ---
 
@@ -31,7 +31,6 @@ The peer reading is admitted on the structural test rather than on preference: t
 
 ### Open
 
-Whether the peer ruling survives the structural test properly run. It has been asserted on inspection, not checked construct by construct against the software projection.
 
 ---
 
@@ -68,8 +67,3 @@ The reduction was reached by way of a rejected argument and a sound one. Both ar
 - This generalises the information-completeness rule from data to the whole triple.
 - Two sets do not fully overlap, and the resolution condition is unsound without declarations on both sides: not every verdict becomes ground, and not all ground is a prior verdict. See the boundary declarations.
 
-### Open
-
-- ~~The actor is absent from the triple.~~ **Closed by R-3.** Actor kinds come from Layer 1 and remain stable. Actor **instances** are declared per specification and read at act time, not held in a further vocabulary: they are deployment facts and tick far faster than any ontology should.
-- The three tick at different rates — fact vocabulary slow, act vocabulary medium, business-driven objects fast — so a single staleness policy across them is likely wrong.
-- The falsifier's completeness predicate is per-act category coverage, not the resolution condition. These are not the same predicate. Whether the falsifier still tests the right thing is unresolved and blocks the amended pre-registration.
