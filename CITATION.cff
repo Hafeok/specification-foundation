@@ -13,7 +13,7 @@ authors:
     family-names: "Okkels Klein"
     orcid: "https://orcid.org/0009-0003-4458-5338"
     affiliation: "Context&"
-repository-code: "https://github.com/Hafeok/specification-foundation"
+repository-code: "https://github.com/mindovermachine-dev/specification-foundation"
 license: CC-BY-4.0
 license-url: "https://creativecommons.org/licenses/by/4.0/"
 keywords:
@@ -36,3 +36,9 @@ date-released: "2026-09-01"
 # copy is preserved at
 # meta/sessions/2026-09-01-seed-specification-foundation/inputs/CITATION.cff.arrived
 # (sha256 cd4467af5b16abda913d824813c6dc4021c34b06c5d4868743747c47f67330b7).
+#
+# repository-code: the value fixed at seed was
+# "https://github.com/Hafeok/specification-foundation". The repository was found
+# at mindovermachine-dev on 2026-10-06; the field was repaired on 2026-10-07 by
+# session 2026-10-06-post-move-repair (Gate 1 ruling R-2). The citation form —
+# title, authors, date-released — is unchanged.

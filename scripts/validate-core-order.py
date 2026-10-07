@@ -12,7 +12,7 @@ THE RELATION THIS VALIDATOR GOVERNS — read before pointing it at anything.
 
 This validator governs PROJECTION, and only projection: the forward-only,
 never-contradicted derivation of this repository from
-Hafeok/actor-indexed-determination. Every check in it assumes that an upstream
+mindovermachine-dev/actor-indexed-determination. Every check in it assumes that an upstream
 object CANNOT legitimately be diverged from — E4's forward edge, E13's drifted
 embed and W5's basis loss are all defects precisely because a projection may
 not fail its upstream.

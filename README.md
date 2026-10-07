@@ -6,7 +6,7 @@ can be checked against it.
 
 **The name is locally scoped.** This is the foundation *of the specification language*, not of the
 framework. The framework's root is
-[`actor-indexed-determination`](https://github.com/Hafeok/actor-indexed-determination), which holds
+[`actor-indexed-determination`](https://github.com/mindovermachine-dev/actor-indexed-determination), which holds
 actor, capability, accountability and the index. Everything here projects from that root; nothing
 here is foundational to it, and a reader must not infer otherwise from the repository's name.
 
@@ -32,7 +32,7 @@ projection by default.
 
 - **Projects from `actor-indexed-determination`.** Determinations are added, never contradicted,
   forward only. A projection cannot be a legitimate variant of its upstream while contradicting it.
-- **Peer of [`decision-driven-design`](https://github.com/Hafeok/decision-driven-design).** Neither
+- **Peer of [`decision-driven-design`](https://github.com/mindovermachine-dev/decision-driven-design).** Neither
   depends on the other; both project from the same root. Nothing is borrowed sideways. The accepted
   cost of the peer relation: two projections mean two term registries, and drift between them is a
   real risk (see `terms/`).
@@ -48,7 +48,7 @@ and will not acquire one in the seeding session — a recorded gap, discovered h
 `specification-languages` is created.
 
 **Governance is orthogonal — a third axis.** Not up, not sideways. Nothing is projected from
-[`canon-governance`](https://github.com/Hafeok/canon-governance); everything complies with it.
+[`canon-governance`](https://github.com/mindovermachine-dev/canon-governance); everything complies with it.
 Whether this repository is governed is asserted from that repository's registry, never declared
 here — this README deliberately carries no such declaration, and none should be added. At the
 commit cited below, that registry asserts nothing operationally: the rules bind as rules, and no

@@ -1,0 +1,8 @@
+$ git ls-remote https://github.com/mindovermachine-dev/product-cli refs/heads/claude/closure-falsifier-prereg-w1mm7d
+a1232bf2b60107136115cdc620a2f3df19f2875d	refs/heads/claude/closure-falsifier-prereg-w1mm7d
+$ git rev-parse FETCH_HEAD
+a1232bf2b60107136115cdc620a2f3df19f2875d
+$ git show FETCH_HEAD:meta/sessions/2026-08-28-closure-falsifier-prereg/prereg-closure-falsifier.md | sha256sum
+145ed0a2204d1a698cb0d4d6ff2b33ba431d20a152d52b86cc91986df3fd632b  -
+$ git show FETCH_HEAD:meta/sessions/2026-08-28-closure-falsifier-prereg/bootstrap.md | sha256sum
+662c7eb3778917dd2870873b1cbdda519ed507250f32ef0a5747c0907519e204  -
