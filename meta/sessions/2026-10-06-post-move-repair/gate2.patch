@@ -1,0 +1,135 @@
+diff --git a/CITATION.cff b/CITATION.cff
+index f84b44e..e013cb0 100644
+--- a/CITATION.cff
++++ b/CITATION.cff
+@@ -13,7 +13,7 @@ authors:
+     family-names: "Okkels Klein"
+     orcid: "https://orcid.org/0009-0003-4458-5338"
+     affiliation: "Context&"
+-repository-code: "https://github.com/Hafeok/specification-foundation"
++repository-code: "https://github.com/mindovermachine-dev/specification-foundation"
+ license: CC-BY-4.0
+ license-url: "https://creativecommons.org/licenses/by/4.0/"
+ keywords:
+@@ -36,3 +36,9 @@ date-released: "2026-09-01"
+ # copy is preserved at
+ # meta/sessions/2026-09-01-seed-specification-foundation/inputs/CITATION.cff.arrived
+ # (sha256 cd4467af5b16abda913d824813c6dc4021c34b06c5d4868743747c47f67330b7).
++#
++# repository-code: the value fixed at seed was
++# "https://github.com/Hafeok/specification-foundation". The repository was found
++# at mindovermachine-dev on 2026-10-06; the field was repaired on 2026-10-07 by
++# session 2026-10-06-post-move-repair (Gate 1 ruling R-2). The citation form —
++# title, authors, date-released — is unchanged.
+diff --git a/README.md b/README.md
+index 2bccba8..7111d86 100644
+--- a/README.md
++++ b/README.md
+@@ -6,7 +6,7 @@ can be checked against it.
+ 
+ **The name is locally scoped.** This is the foundation *of the specification language*, not of the
+ framework. The framework's root is
+-[`actor-indexed-determination`](https://github.com/Hafeok/actor-indexed-determination), which holds
++[`actor-indexed-determination`](https://github.com/mindovermachine-dev/actor-indexed-determination), which holds
+ actor, capability, accountability and the index. Everything here projects from that root; nothing
+ here is foundational to it, and a reader must not infer otherwise from the repository's name.
+ 
+@@ -32,7 +32,7 @@ projection by default.
+ 
+ - **Projects from `actor-indexed-determination`.** Determinations are added, never contradicted,
+   forward only. A projection cannot be a legitimate variant of its upstream while contradicting it.
+-- **Peer of [`decision-driven-design`](https://github.com/Hafeok/decision-driven-design).** Neither
++- **Peer of [`decision-driven-design`](https://github.com/mindovermachine-dev/decision-driven-design).** Neither
+   depends on the other; both project from the same root. Nothing is borrowed sideways. The accepted
+   cost of the peer relation: two projections mean two term registries, and drift between them is a
+   real risk (see `terms/`).
+@@ -48,7 +48,7 @@ and will not acquire one in the seeding session — a recorded gap, discovered h
+ `specification-languages` is created.
+ 
+ **Governance is orthogonal — a third axis.** Not up, not sideways. Nothing is projected from
+-[`canon-governance`](https://github.com/Hafeok/canon-governance); everything complies with it.
++[`canon-governance`](https://github.com/mindovermachine-dev/canon-governance); everything complies with it.
+ Whether this repository is governed is asserted from that repository's registry, never declared
+ here — this README deliberately carries no such declaration, and none should be added. At the
+ commit cited below, that registry asserts nothing operationally: the rules bind as rules, and no
+diff --git a/evidence/falsifier/README.md b/evidence/falsifier/README.md
+index 8f97e7f..357f8e0 100644
+--- a/evidence/falsifier/README.md
++++ b/evidence/falsifier/README.md
+@@ -25,3 +25,22 @@ The draft above **responds to it finding by finding; it is not a summary of it**
+ as one over-trusts a document that was never issued. The defect in the session convention this
+ exposes is carried, with its intended home named, at
+ `meta/sessions/2026-09-01-seed-specification-foundation/carried-items.md` (CI-1).
++
++---
++
++**Location note (appended 2026-10-07, session `2026-10-06-post-move-repair`).** The records above
++name `Hafeok/product-cli`, `Hafeok/decision-driven-design` and `Hafeok/ai-development-foundations`
++as they were read, and are left exactly as read. On 2026-10-06, `product-cli` and
++`decision-driven-design` were found at `mindovermachine-dev`; `ai-development-foundations` was
++still at `Hafeok`. The transfer date is not recorded.
++
++The identity the sidecars state was re-observed at the new location on 2026-10-07:
++`claude/closure-falsifier-prereg-w1mm7d` at `mindovermachine-dev/product-cli` resolves to
++`a1232bf2b60107136115cdc620a2f3df19f2875d`. At that commit,
++`meta/sessions/2026-08-28-closure-falsifier-prereg/prereg-closure-falsifier.md` hashes to
++`145ed0a2204d1a698cb0d4d6ff2b33ba431d20a152d52b86cc91986df3fd632b` and
++`meta/sessions/2026-08-28-closure-falsifier-prereg/bootstrap.md` to
++`662c7eb3778917dd2870873b1cbdda519ed507250f32ef0a5747c0907519e204`, matching
++`prereg-closure-falsifier.filing.yaml` and `closure-falsifier-session-arrival-record.filing.yaml`
++respectively. Output verbatim at
++`meta/sessions/2026-10-06-post-move-repair/gate2-o5-runs.txt`.
+diff --git a/meta/sessions/2026-10-06-post-move-repair/gate2-o5-runs.txt b/meta/sessions/2026-10-06-post-move-repair/gate2-o5-runs.txt
+new file mode 100644
+index 0000000..41ad5ca
+--- /dev/null
++++ b/meta/sessions/2026-10-06-post-move-repair/gate2-o5-runs.txt
+@@ -0,0 +1,8 @@
++$ git ls-remote https://github.com/mindovermachine-dev/product-cli refs/heads/claude/closure-falsifier-prereg-w1mm7d
++a1232bf2b60107136115cdc620a2f3df19f2875d	refs/heads/claude/closure-falsifier-prereg-w1mm7d
++$ git rev-parse FETCH_HEAD
++a1232bf2b60107136115cdc620a2f3df19f2875d
++$ git show FETCH_HEAD:meta/sessions/2026-08-28-closure-falsifier-prereg/prereg-closure-falsifier.md | sha256sum
++145ed0a2204d1a698cb0d4d6ff2b33ba431d20a152d52b86cc91986df3fd632b  -
++$ git show FETCH_HEAD:meta/sessions/2026-08-28-closure-falsifier-prereg/bootstrap.md | sha256sum
++662c7eb3778917dd2870873b1cbdda519ed507250f32ef0a5747c0907519e204  -
+diff --git a/meta/sessions/README.md b/meta/sessions/README.md
+new file mode 100644
+index 0000000..73362b8
+--- /dev/null
++++ b/meta/sessions/README.md
+@@ -0,0 +1,21 @@
++# meta/sessions/
++
++Session records, per `CG-rule-06`: one directory per session, named by date and slug. A session
++record says what the session was given, read, proposed, ruled and did. It is not edited after the
++session closes. Corrections are appended notes, never edits.
++
++## Repository locations in records before 2026-10-06
++
++Session records dated before `2026-10-06-post-move-repair` name repositories as
++`Hafeok/…`. That is where they were read, and the records are left as read.
++
++On 2026-10-06, `specification-foundation`, `actor-indexed-determination`,
++`decision-driven-design`, `canon-governance` and `product-cli` were found at
++`mindovermachine-dev`. `ai-development-foundations` was still at `Hafeok`. **The transfer date is
++not recorded**, and none is to be inferred from these records.
++
++The seed branch `claude/seed-specification-foundation-g6a2y0`, which records before that session
++name as the default branch, was found renamed `main`; the former name no longer resolves.
++
++What was repaired and what was left as provenance is recorded in
++`2026-10-06-post-move-repair/`.
+diff --git a/scripts/validate-core-order.py b/scripts/validate-core-order.py
+index 9f48463..46b0032 100755
+--- a/scripts/validate-core-order.py
++++ b/scripts/validate-core-order.py
+@@ -12,7 +12,7 @@ THE RELATION THIS VALIDATOR GOVERNS — read before pointing it at anything.
+ 
+ This validator governs PROJECTION, and only projection: the forward-only,
+ never-contradicted derivation of this repository from
+-Hafeok/actor-indexed-determination. Every check in it assumes that an upstream
++mindovermachine-dev/actor-indexed-determination. Every check in it assumes that an upstream
+ object CANNOT legitimately be diverged from — E4's forward edge, E13's drifted
+ embed and W5's basis loss are all defects precisely because a projection may
+ not fail its upstream.
